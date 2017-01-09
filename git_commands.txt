@@ -1,0 +1,22 @@
+configuring git :
+	git config --global user.name "Sam Smith"
+	git config --global user.email sam@example.com
+
+Setup Repo :
+	git init
+
+Cloning :
+	git clone username@host:/path/to/repository
+
+Add one or more files to staging (index):
+	git add <filename>
+	git add *
+
+Commit(Commit changes to head):
+	git commit -m "Commit message"
+
+Push:
+	git push origin master
+
+Status:
+	git status
